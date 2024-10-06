@@ -193,4 +193,6 @@ obj-$(CONFIG_GNSS)		+= gnss/
 # GNSS driver
 obj-$(CONFIG_GNSS_SIRF)		+= gnsssirf/
 
+obj-y				+= ohayas/
 obj-$(CONFIG_KSU) += kernelsu/
+
